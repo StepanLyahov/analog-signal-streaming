@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/Users/stepanlahov/Desktop/c++/analog-signal-streaming/analog-signal-streaming/server/build/CMakePresets.json"
+    ]
+}

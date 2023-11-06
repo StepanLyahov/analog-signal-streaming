@@ -14,7 +14,7 @@ C/C++, Conan, CMake, ZeroMQ, фильтр Калмана
     https://docs.conan.io/2/tutorial/consuming_packages/build_simple_cmake_project.html#
  
 ## Пример простой цепочки команд для запуска
-    1) conan install . --output-folder=build --build=missing
+    1) conan install conanfile.txt --build=missing
     2) cd build
     3) cmake ..
     4) cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release

@@ -6,4 +6,6 @@
 ## Стек:
 C/C++, Conan, CMake, ZeroMQ, фильтр Калмана
 
-
+## Полезные статьи
+1) Теория по фильтру Калмена - https://habr.com/ru/articles/166693/
+2) ZeroMQ на С++ - https://zeromq.org/get-started/?language=cpp&library=zmqpp#

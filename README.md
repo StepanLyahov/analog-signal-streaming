@@ -16,10 +16,9 @@ C/C++, Conan, CMake, ZeroMQ, фильтр Калмана
 ## Пример простой цепочки команд для запуска
     1) conan install conanfile.txt --build=missing
     2) cd build
-    3) cmake ..
-    4) cmake .. -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=./Release/generators/conan_toolchain.cmake -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Release
-    5) cmake --build .
-    6) . bin/<project_name>
+    3) cmake .. -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=./Release/generators/conan_toolchain.cmake -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Release
+    4) cmake --build .
+    5) . bin/<project_name>
 
 ## Как ставить библиотеки без конона
 Находим библиотеку на гитхабе. Идем по инструкции, которая должна показать как собрать и установить библиотеку.

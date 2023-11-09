@@ -17,6 +17,10 @@ C/C++, Conan, CMake, ZeroMQ, фильтр Калмана
     1) conan install conanfile.txt --build=missing
     2) cd build
     3) cmake ..
-    4) cmake .. -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release
+    4) cmake .. -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=./Release/generators/conan_toolchain.cmake -DCMAKE_POLICY_DEFAULT_CMP0091=NEW -DCMAKE_BUILD_TYPE=Release
     5) cmake --build .
-    6) ./<project_name>
+    6) . bin/<project_name>
+
+## Как ставить библиотеки без конона
+Находим библиотеку на гитхабе. Идем по инструкции, которая должна показать как собрать и установить библиотеку.
+После этого должна начать работать система поиска в cmake

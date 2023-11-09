@@ -4,7 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/Users/stepanlahov/Desktop/c++/analog-signal-streaming/analog-signal-streaming/server/build/Release/generators/CMakePresets.json",
-        "/Users/stepanlahov/Desktop/c++/analog-signal-streaming/analog-signal-streaming/server/build/build/Release/generators/CMakePresets.json"
+        "/home/user/Desktop/my_project/analog-signal-streaming/server/build/Release/generators/CMakePresets.json"
     ]
 }

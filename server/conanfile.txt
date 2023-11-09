@@ -1,5 +1,5 @@
 [requires]
-zmqpp/4.2.0
+cppzmq/4.10.0
 [generators]
 CMakeDeps
 CMakeToolchain

@@ -13,10 +13,10 @@ find_package(Threads)
 find_package(cppzmq)
 
 add_executable(
-    hello_world
-    src/hello_world.cpp
+    main
+    src/main.cpp
 )
 target_link_libraries(
-    hello_world
+    main
     PRIVATE cppzmq ${CMAKE_THREAD_LIBS_INIT}
 )

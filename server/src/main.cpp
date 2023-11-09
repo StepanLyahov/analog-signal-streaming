@@ -8,5 +8,5 @@ int main()
     sock.bind("inproc://test");
     sock.send(zmq::str_buffer("Hello, world"), zmq::send_flags::dontwait);
 
-    std::cout << "Received Hello" << std::endl;
+    std::cout << "Hello server" << std::endl;
 }
